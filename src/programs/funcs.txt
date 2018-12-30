@@ -1,0 +1,9 @@
+--- w.r.t python3 ---
+
+list all the attributes of object:
+	dir(<object>)
+	
+iterating through all they non-private attributes:
+ 	for attr, value in scaler_data.__dict__.items():
+    	print(attr , " - " , value)	
+

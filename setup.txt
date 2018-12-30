@@ -1,0 +1,20 @@
+#switch the backend
+
+	1. cat ~/.keras/keras.json
+	{
+	    "floatx": "float32",
+	    "epsilon": 1e-07,
+	    "backend": "tensorflow",
+	    "image_data_format": "channels_last"
+
+	2. set the environment variable KERAS_BACKEND:  
+		KERAS_BACKEND=theano python mymodel.py 
+
+	3. import os; os.environ['KERAS_BACKEND'] = 'theano'
+	load_model
+
+	valid backend string strings are ['GTK3Agg', 'GTK3Cairo', 'MacOSX', 'nbAgg', 'Qt4Agg', 'Qt4Cairo', 'Qt5Agg', 'Qt5Cairo', 'TkAgg', 'TkCairo', 'WebAgg', 'WX', 'WXAgg', 'WXCairo', 'agg', 'cairo', 'pdf', 'pgf', 'ps', 'svg', 'template']
+
+
+#installing python as framework
+

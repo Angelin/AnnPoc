@@ -1,0 +1,3 @@
+onehotencoder = OneHotEncoder(categorical_features = [1])
+	need to make to categories = auto
+
